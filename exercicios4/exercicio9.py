@@ -12,17 +12,17 @@ elif Numero3 > (Numero1 and Numero2):
     print (f'{Numero3} é o maior numero')
 
 
-
-if Numero1 > Numero2  < Numero3:
+try:
+ if Numero1 > Numero2  < Numero3:
     print (f'{Numero1} é o numero do meio')
 
-elif Numero2 > Numero3 < Numero1:
+ elif Numero2 > Numero3 < Numero1:
     print (f'{Numero1} é o numero do meio')
 
-elif Numero3 > Numero2 < Numero1:
+ elif Numero3 > Numero2 < Numero1:
     print (f'{Numero1} é o numero do meio')
-
-
+except:
+   print (Numero1 or Numero2 or Numero3)
 
 
 
