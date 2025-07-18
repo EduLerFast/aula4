@@ -11,7 +11,15 @@ nota1= float (input('coloque sua 1° nota:'))
                                                                     
 nota2= float (input('coloque sua 2° nota:'))
 
-resultado= (nota1  + nota2)/2 
+media= (nota1 + nota2)/2 
 
-print(f'sua nota é: {resultado:.1f}')
+print(f'sua media é: {media:.1f}')
 
+if media > 7<9 :
+    print ('Aprovado')
+elif media < 7:
+    print ('reprovado')
+elif media == 10.0 :
+    print('Aprovado com Distinção')
+
+    
